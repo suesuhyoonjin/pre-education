@@ -12,3 +12,10 @@
 짝 짝 짝 짝 짝 짝 짝 짝 짝 짝 짝 아자
 
 """
+for x in range(1, 370):
+    if x % 3 ==0:
+        print('짝', end=" ")
+    elif x % 5 ==0:
+        print('아자', end=" ")
+    else:
+        print(x, end=" ")

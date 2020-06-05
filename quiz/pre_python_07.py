@@ -5,3 +5,13 @@
 <출력>
  45
 """
+def sum(x):
+    sum = 0
+    for i in range(1, x+1):
+        sum += i
+    return sum
+
+for n in range(1, 101):
+    if sum(n)>1000:
+        print(n)
+        break

@@ -8,3 +8,11 @@
 <출력>
 남자
 """
+
+
+ssn = input('주민등록번호 :').split('-')
+gender = ssn[1]
+if gender[:1]=='1' or gender[:1]== '3':
+    print('Male')
+else:
+    print('Female')

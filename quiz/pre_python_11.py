@@ -7,3 +7,6 @@ print(gcd(12,6))
 <출력>
 6
 """
+
+from math import gcd
+print(gcd(12, 6))
